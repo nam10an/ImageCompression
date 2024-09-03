@@ -97,7 +97,7 @@ def run_k_means():
         option=int(input("ENTER YOUR CHOICE: "))
         if option==1:
             path=input("ENTER PATH OF THE IMAGE: ")
-            k = int(input('ENTER DEGREE OF RESOLUTION (K) (4-8): '))
+            k = int(input('ENTER DEGREE OF RESOLUTION (K): '))
             print('\n')
             CompressImage(path,k)
             print("IMAGE COMPRESSED SUCCESSFULLY")
